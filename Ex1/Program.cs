@@ -4,11 +4,11 @@ string testSubstring = "roll is good";
 
 if (testString.Contains("roll is good"))
 {
-    System.Console.WriteLine($"Text {testSubstring} found, substring is present.");
+    System.Console.WriteLine(@$"Text ""{testSubstring}"" found, substring is present.");
 }
 
 else
 {
     System.Console.WriteLine($"Unfortunately {testSubstring} is not present in the main string");
-    
+
 }
